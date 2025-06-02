@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillForge</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <h1>SkillForge</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card">
+        <div class="url-bar">
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+          <span class="url-text">localhost:3000/login</span>
+        </div>
+        <div class="login-content">
+          <h2>Login</h2>
+          <form id="loginForm">
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" placeholder="Enter your username">
+              <div id="username-error" class="error"></div>
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" placeholder="Enter your password">
+              <div id="password-error" class="error"></div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="primary-button">Login</button>
+            </div>
+          </form>
+          <div class="link-back">
+            <a href="/">Back to Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="company">SkillForge E-Learning Solutions Private Limited</div>
+      <div class="address">No. 1537, 5th Main Road, Rajiv Gandhi Nagar, Sector - 7, HSR Layout, Bangalore - 560102</div>
+      <div class="contact">
+        <a href="http://www.skillforge.in" class="contact-link">www.skillforge.in</a>
+        <a href="mailto:contact@skillforge.in" class="contact-link">contact@skillforge.in</a>
+        <a href="tel:+916361512442" class="contact-link">+91 6361512442</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
